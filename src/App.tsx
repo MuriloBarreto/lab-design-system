@@ -1,10 +1,15 @@
-import './styles/global.css'
+import { Envelope, Lock } from "phosphor-react";
+import { Button } from "./components/Button";
+import { Checkbox } from "./components/Checkbox";
+import { Heading } from "./components/Heading";
+import { Text } from "./components/Text";
+import { TextInput } from "./components/TextInput";
+import { Logo } from "./Logo";
+import { Signin } from "./pages/Signin";
+import "./styles/global.css";
 
 export function App() {
-
   return (
-    <h1 className='font-bold text-violet-500 text-2xl'>Hello</h1>
-  )
+    <Signin />
+  );
 }
-
-
